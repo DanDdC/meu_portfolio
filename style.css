@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #222;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.section {
+
+  margin-bottom: 50px;
+}
+
+.barra {
+  background-color: #000000;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.barra ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.barra a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.ativo {
+  text-decoration: underline;
+}
+
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.botao {
+  background-color: white;
+  color: black;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 4px;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+
+.conteudo {
+  max-width: 900px;
+  margin: auto;
+  padding: 10px 20px;
+}
+
+
+.projetos-lista {
+  margin-top: 20px;
+}
+
+.card {
+  background-color: #333;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.card-img {
+  width: 160px;
+  height: auto;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.skill {
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  display: inline-block;
+}
+
+
+.unity { background-color: #221E1F; }
+.python { background-color: #3776AB; }
+.csharp { background-color: #239120; }
+.c { background-color: #004482; }
+.lua { background-color: #2C2D72; }
+.html { background-color: #E44D26; }
+.js { background-color: #F7DF1E; color: black; }
+.css { background-color: #2965F1; }
+.md { background-color: #000; }
+.git { background-color: #F05033; }
+.github { background-color: #6e5494; }
