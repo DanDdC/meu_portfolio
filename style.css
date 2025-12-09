@@ -63,22 +63,19 @@ body {
   margin-top: 20px;
 }
 
-.card {
+.card { 
   background-color: #333;
   padding: 15px;
   border-radius: 5px;
   margin-bottom: 20px;
-
-  display: flex;
-  gap: 15px;
-  align-items: center;
 }
 
 .card-img {
-  width: 160px;
-  height: auto;
+  width: 200px;
+  float: right;
+  margin-left: 15px;
+  margin-bottom: 10px;
   border-radius: 5px;
-  object-fit: cover;
 }
 
 
