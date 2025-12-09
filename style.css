@@ -12,11 +12,14 @@ body {
 }
 
 .barra {
-  background-color: #000000;
-  padding: 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #000000;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('assets/header.jpg');
+  background-size: cover; 
+  background-position: center;
+  padding: 40px 20px; 
 }
 
 .barra ul {
